@@ -1,0 +1,51 @@
+body div#page {
+  font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+  border-top: none;
+  color: #333; }
+  body div#page h1.headermain {
+    font-weight: 500;
+    color: #333; }
+
+body div.navbar {
+  background-color: #fff;
+  border-width: 0;
+  padding: 10px 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif; }
+
+body table.generaltable {
+  background-color: transparent;
+  border-top: 0; }
+  body table.generaltable tr {
+    margin: 0;
+    padding: 0; }
+    body table.generaltable tr:first-child td, body table.generaltable tr:first-child th {
+      border-top: none; }
+  body table.generaltable th.header {
+    background-color: transparent; }
+
+#mod-resource-view div#page {
+  max-width: 46em;
+  margin: 0 auto; }
+
+#mod-resource-index div#page .generaltable {
+  margin-left: 0; }
+
+body div#content {
+  background-color: white;
+  border-top: none;
+  font-size: 16px;
+  line-height: 140%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif; }
+  body div#content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 2em; }
+    body div#content p:first-child {
+      margin-top: 1em;
+      text-indent: 0; }
+    body div#content p[align="center"] {
+      margin-bottom: 1em; }
+
+/*# sourceMappingURL=theme.css.map */

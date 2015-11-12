@@ -1,0 +1,61 @@
+body
+  //border: 3px solid red
+
+=f
+  font-family: 'Helvetica Neue', Helvetica, Arial, Tahoma, sans-serif
+
+body div#page
+  +f
+
+  border-top: none
+  color: #333
+  h1.headermain
+    font-weight: 500
+    color: #333
+
+body div.navbar
+  background-color: #fff
+  border-width: 0
+  padding: 10px 5px
+
+  +f
+body table.generaltable
+  background-color: transparent
+  border-top: 0
+  tr
+    margin: 0
+    padding: 0
+    &:first-child
+      td, th
+        border-top: none
+  th.header
+    background-color: transparent
+#mod-resource-view
+  div#page
+    max-width: 46em
+    margin: 0 auto
+#mod-resource-index
+  div#page
+    .generaltable
+      margin-left: 0
+
+body div#content
+  background-color: white
+  border-top: none
+  font-size: 16px
+  line-height: 140%
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+
+
+  +f
+  p
+    margin-top: 0
+    margin-bottom: 0
+    text-indent: 2em
+    &:first-child
+      margin-top: 1em
+      text-indent: 0
+    &[align="center"]
+      margin-bottom: 1em

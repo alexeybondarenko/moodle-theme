@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Moodle Theme",
+  "description": "This extension beautify Moodle site for readibility",
+  "version": "1.0.0",
+
+  "browser_action": {},
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://moodle.kpi.ua/*"],
+      "css": ["sass/theme.css"]
+    }
+  ]
+}
