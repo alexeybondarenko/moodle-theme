@@ -4,6 +4,7 @@ Small customization for http://moodle.kpi.ua
 
 It is and extension fro Chrome Browser.
 
+![Screenshot. Sample course view page](https://raw.githubusercontent.com/alexeybondarenko/moodle-theme/master/resources/screen.png)
 ##How to install
 
 - Click on `Download.zip` on the right sidebar. 
